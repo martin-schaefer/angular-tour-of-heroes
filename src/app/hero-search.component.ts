@@ -15,7 +15,6 @@ import 'rxjs/add/operator/switchMap';
 @Component({
   selector: 'my-hero-search',
   templateUrl: './hero-search.component.html',
-  styleUrls: ['./hero-search.component.css'],
   providers: [HeroSearchService]
 })
 export class HeroSearchComponent implements OnInit {
