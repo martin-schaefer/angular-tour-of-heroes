@@ -1,6 +1,9 @@
 <div class="container">
 	<h5>Heroic Search</h5>
-	<input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+	<form class="form-inline mt-2 mt-md-0">
+		<input #searchBox id="search-box" class="form-control mr-sm-2" type="text" placeholder="Search" />
+		<button (click)="search(searchBox.value)" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	</form>
 	<table class="table table-striped table-hover">
 		<thead>
 			<tr>
